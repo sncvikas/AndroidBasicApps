@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Below linearlayour holds all child views linear fashion, and since the orienation is vertical, all
+    children will be one below the other
+    Notice for all the views that Im making use of in Java code, i have provided id attribute
+    which i can use in java
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Switch for enabling and disabling Bluetooth-->
+    <Switch
+        android:id="@+id/switch_enable_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:padding="10dp"
+        android:text="Enable Bluetooth"
+        android:textSize="20sp" />
+
+    <!--This text shows title for paired devices-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:text="Paired Devices"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!--
+        This list if for paired devices, i have hardcoded the height to 150dp,
+        because of this app may not display fully when in landscae mode
+        Use the app in portrait mode only
+    -->
+    <ListView
+        android:id="@+id/list_paired"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"></ListView>
+
+    <!--This text shows title for discovered devices-->
+    <TextView
+        android:id="@+id/txt_title_discovery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:text="Discovered Devices"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!--
+            This list if for discovered devices, i have hardcoded the height to 150dp,
+            because of this app may not display fully when in landscae mode
+            Use the app in portrait mode only
+        -->
+    <ListView
+        android:id="@+id/list_discovered"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"></ListView>
+
+
+</LinearLayout>
