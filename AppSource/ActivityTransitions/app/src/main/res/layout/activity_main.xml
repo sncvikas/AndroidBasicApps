@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_intro"
+        android:id="@+id/txt_intro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_animal_name"
+        app:layout_constraintBottom_toTopOf="@id/txt_animal_details"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_animal_details"
+        style="@style/heading_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_details"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/txt_intro" />
+
+        />
+    <TextView
+        android:id="@+id/txt_animal_name"
+        style="@style/heading_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_animal_name"
+        app:layout_constraintEnd_toStartOf="@id/edit_animal"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_animal_details" />
+
+    <EditText
+        android:id="@+id/edit_animal"
+        style="@style/heading_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="animal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@id/txt_animal_name"
+        app:layout_constraintTop_toBottomOf="@id/txt_animal_details"
+        />
+
+    <TextView
+        android:id="@+id/txt_number_of_legs"
+        style="@style/heading_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_legs"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_animal_name" />
+
+
+    <EditText
+        android:id="@+id/edit_number_of_legs"
+        style="@style/heading_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="number of legs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@id/txt_number_of_legs"
+        app:layout_constraintTop_toBottomOf="@id/edit_animal" />
+
+    <Button
+        style="@style/heading_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_start_activity"
+        android:text="@string/start_activity_second"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_number_of_legs"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

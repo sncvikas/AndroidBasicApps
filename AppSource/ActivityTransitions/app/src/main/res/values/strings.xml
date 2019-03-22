@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ActiivtyTransitions</string>
+    <string name="main_activity">Parent Activity</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="animal_details">Enter animal details</string>
+    <string name="txt_animal_name">Animal name</string>
+    <string name="number_of_legs">Number of legs</string>
+    <string name="start_activity_second">Send data</string>
+    <string name="app_intro">This app introduces you to\n1. Start one activity from current activity\n2. Send data from one activity to other via user input intent extras\n3. Activity life cycle</string>
+    <string name="second_activity_intro">This activity shows the data received from the main activity.\nDetails are below</string>
+    <string name="press_back_msg">Press back to see how this activity is removed from the stack and main activity is brought to the top</string>
+</resources>
