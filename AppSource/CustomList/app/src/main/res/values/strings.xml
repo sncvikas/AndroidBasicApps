@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomList</string>
+    <string name="app_intro">Below is custom list view with an ImageView, TextView, and a ImageButton. Each list item represents an installed application</string>
+    <string-array name="array_items">
+        <item>Hello</item>
+        <item>World</item>
+        <item>Rock</item>
+    </string-array>
+</resources>
