@@ -38,3 +38,14 @@ Introduces the following topics
 
 Note: LookupFiles for this project contains video and screeshot of logcat depicting above mentioned features.
 ___
+
+# Notes
+Introduces the following topics
+1. How to make use of Sqlite database to store data
+2. Perform database operations such as insert, delete, update, query
+3. Show custom dialog that accepts user input (EditText)
+4. Listeners when items from the list are clicked
+
+Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
+
+___
