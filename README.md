@@ -49,3 +49,14 @@ Introduces the following topics
 Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
 
 ___
+
+
+# FetchMovie - Web API Usage
+Introduces the following topics
+1. How to create an AsyncTaskLoader to perform task in background thread
+2. Create HttpUrConnection to connect to webservice to fetch details of a movie such as title year of release, language, genre, ImDb rating
+3. Parse output which is in json format to extract desired movie attributes.
+
+Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
+
+___

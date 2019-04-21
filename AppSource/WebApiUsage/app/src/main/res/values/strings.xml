@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebApiUsage</string>
+    <string name="activity_title">Search for movies by name</string>
+    <string name="result_title">Search Result</string>
+</resources>
