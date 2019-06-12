@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+    This layout contains text view that describes what the app does
+    imageview, plain image
+    text view that describes the iamge,
+    Both these imageView and second textview are tied to a magnifier, so when you touch these views
+    a magnifier widget shows to magnify the touched part of the view
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="This sample demonstrates the magnifier introduced from Android 8 onwards. Tocuh the below Image and Text for the magnifie"
+        android:layout_margin="16dp"
+        android:padding="15dp"
+        android:id="@+id/title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@id/image_msg"
+        android:src="@drawable/tajmahal"
+        android:scaleType="center"
+        android:id="@+id/img"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold|italic"
+        android:text="This is Tajmahal, one of the beautiful wonders of the world located in India"
+        android:layout_margin="16dp"
+        android:padding="15dp"
+        android:id="@+id/image_msg"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

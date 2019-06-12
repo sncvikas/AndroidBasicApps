@@ -60,3 +60,10 @@ Introduces the following topics
 Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
 
 ___
+
+# Magnifier Widget
+Introduces the following topics
+1. How to create an Magnifier widget for an ImageView and TextView
+2. Show the magnifier widget whenever the corresponding view is touched.
+
+Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.

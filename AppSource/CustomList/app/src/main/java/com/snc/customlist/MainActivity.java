@@ -10,6 +10,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -113,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (PackageManager.NameNotFoundException e) {
                     e.printStackTrace();
                 }
-                mInstalledApps.add(new InstalledAppInfo(packageManager.getApplicationIcon(info), info.name, pInfo.versionName, info.packageName));
+                mInstalledApps.add(new InstalledAppInfo(packageManager.getApplicationIcon(info), info.loadLabel(getPackageManager()).toString(), pInfo.versionName, info.packageName));
 
                 //Here we are updating the progress bar with dynamic data
                 publishProgress(mInstalledApps.size());
