@@ -67,3 +67,27 @@ Introduces the following topics
 2. Show the magnifier widget whenever the corresponding view is touched.
 
 Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
+
+___
+
+# NotificationsSample
+Introduces the notifications feature of Android. Project demostrates below listed types of notifcations.
+	1. Basic notification
+	2. Notification with multiline line content
+	3. Notification with large icon
+	4. Notification to open an activity
+	5. Notification with an action button
+	6. Notification with an inline input
+	7. Notification with progress bar
+	8. Expandable notification with big image
+	9. Update a notification
+	10. Message style notifications
+	11. Notification to cancel after 5 seconds
+	12. Create a heads up notification
+	13. Cancel all notifications
+	14. Create custom notification layout
+	15. Open Notification Channel Settings
+
+Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
+
+___

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NotificationsSample</string>
+    <string-array name="notification_types">
+        <item>1. Basic notification</item>
+        <item>2. Notification with multiline line content</item>
+        <item>3. Notification with large icon</item>
+        <item>4. Notification to open an activity</item>
+        <item>5. Notification with an action button</item>
+        <item>6. Notification with an inline input</item>
+        <item>7. Notification with progress bar</item>
+        <item>8. Expandable notification with big image</item>
+        <item>9. Update a notification</item>
+        <item>10. Message style notifications</item>
+        <item>11. Notification to cancel after 5 seconds</item>
+        <item>12. Create a heads up notification</item>
+        <item>13. Cancel all notifications</item>
+        <item>14. Create custom notification layout</item>
+        <item>15. Open Notification Channel Settings</item>
+
+
+
+    </string-array>
+</resources>
