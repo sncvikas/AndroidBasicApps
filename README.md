@@ -89,7 +89,6 @@ Introduces the notifications feature of Android. Project demostrates below liste
 15. Open Notification Channel Settings
 
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
-
 ___
 
 #AppBarSample With Search Action
