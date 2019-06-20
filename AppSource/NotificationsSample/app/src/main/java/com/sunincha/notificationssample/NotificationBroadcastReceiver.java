@@ -13,7 +13,8 @@ public class NotificationBroadcastReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
-        if(intent.getAction().equals("INLINE_REPLY")) {
+
+        if(intent.getAction() != null && intent.getAction().equals("INLINE_REPLY")) {
 
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("This was an inline reply\n");
