@@ -9,14 +9,14 @@ ___
 
 # Projects : 
 ___
-# Basic_Bluetooth : 
+# [Basic_Bluetooth](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/Basic_Bluetooth)  :
 Contains code to perform basic Bluetooth operations in Android. The features include
 1. Enable/Disable Bluetooth
 2. Get list of paired devices
 3. Start Bluetooth device discovery to search for nearby Bluetooth devices	4. Register broadcast receivers for Bluetooth state changes events, device found intents.
 
 ___
-# ActivityTransitions: 
+# [ActivityTransitions](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/ActivityTransitions):
 Introduces following activity topics
 1. Activity life cycle, When new activity is started, current activity goes to one level down in the backstack,
 			while new activity becomes the top of the statck. Similarly when back is press, 
@@ -28,7 +28,7 @@ Introduces following activity topics
 `Note: LookupFiles for this project contains video and screeshot of logcat depicting above mentioned features.`
 ___
 
-# CustomList
+# [CustomList](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/CustomList)
 Introduces the following topics
 1. How to create a custom list adapter for your own UI where each row has ImageView, TextView and an ImageButton
 2. Asynctask which runs long operations in the background, not on the main thread, in our app it loads installed
@@ -39,7 +39,7 @@ Introduces the following topics
 `Note: LookupFiles for this project contains video and screeshot of logcat depicting above mentioned features.`
 ___
 
-# Notes
+# [Notes using SQLite](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/NotesAppUsingSqlite)
 Introduces the following topics
 1. How to make use of Sqlite database to store data
 2. Perform database operations such as insert, delete, update, query
@@ -51,7 +51,7 @@ Introduces the following topics
 ___
 
 
-# FetchMovie - Web API Usage
+# [FetchMovie - Web API Usage](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/WebApiUsage)
 Introduces the following topics
 1. How to create an AsyncTaskLoader to perform task in background thread
 2. Create HttpUrConnection to connect to webservice to fetch details of a movie such as title year of release, language, genre, ImDb rating
@@ -61,7 +61,7 @@ Introduces the following topics
 
 ___
 
-# Magnifier Widget
+# [Magnifier Widget](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/MagnifierOnImageView)
 Introduces the following topics
 1. How to create an Magnifier widget for an ImageView and TextView
 2. Show the magnifier widget whenever the corresponding view is touched.
@@ -70,7 +70,7 @@ Introduces the following topics
 
 ___
 
-# NotificationsSample
+# [NotificationsSample](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/NotificationsSample)
 Introduces the notifications feature of Android. Project demostrates below listed types of notifcations.
 1. Basic notification
 2. Notification with multiline line content
@@ -91,7 +91,7 @@ Introduces the notifications feature of Android. Project demostrates below liste
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 ___
 
-# AppBarSample With Search Action
+# [AppBarSample With Search Action](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/AppBarSearchSample)
 Introduces the appbar/toolbar/actionbar with search action. This app has two activities main acitivty has a list of few quotes, and secondary acitivity shows the list of quotes that were searched from the main activity with a search string. Components used
 
 1. ToolBar in layout xml, menu items in the menu.xml and providing menu click listeners, and searchable resource to indicate that we want to peform search from appbar menu.
