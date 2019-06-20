@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppBarSearchSample</string>
+    <string name="title_activity_quotes">QuotesActivity</string>
+
+    <array name="quotes">
+        <item>When you want to succeed as bad as you want to breath you will be successful</item>
+        <item>Either push your limits or die</item>
+        <item>Don\'t practice until you get it right, practice until you can\'t get it wrong</item>
+        <item>Throw me to the wolves I will return leading the pack</item>
+        <item>Do it yourself because no one else will</item>
+        <item>What would you do if you weren\'t afraid?</item>
+        <item>The only thing standing between you and your goal is the bullshit reason you keep giving yourself as to why you can\'t achieve it</item>
+        <item>People want to see you doing well but not better than them</item>
+        <item>People cry not because they are weak it\'s because they have been strong for very long</item>
+        <item>You do not know how strong you are until being strong is the only choice you have</item>
+        <item>The fool didn\'t know it was impossible so he did it</item>
+        <item>If you set your goals  ridiculously high and it\'s failure, you will fail above everyone\'s success</item>
+        <item>Amateurs sit and wait for inspiration, the rest of us just get up and go to work</item>
+        <item>You will always be measured by your ability to execute under pressure</item>
+        <item>“Courage doesn\'t always roar. Sometimes courage is the quiet voice at the end of the day saying, I will try again tomorrow.</item>
+        <item>Be yourself, everyone else is already taken.</item>
+        <item>Find out what you truly love to do and then direct all of  your energy towards doing it. </item>
+
+    </array>
+</resources>

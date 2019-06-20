@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+
+    <!--
+        List of menu items being displayed in the main activity
+        Now the menu has share, search, settings
+   -->
+    <item
+        android:id="@+id/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Reminder"
+        app:showAsAction="ifRoom" />
+
+    <!-- Search menu item when clicked, shows SearchView android widget
+        as mentioned in appcompat:actionViewClass attribute
+    -->
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        appcompat:showAsAction="ifRoom|collapseActionView"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <!-- Another settings menu item which is never shown as icon
+        It is always shown as text when menu overflow button is tapped
+    -->
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_send"
+        />
+</menu>

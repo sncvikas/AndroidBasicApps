@@ -25,7 +25,7 @@ Introduces following activity topics
 3. Sending data as extras as part of the intent in main activity.
 4. Retreiving data from intent and displaying it to the user.
 		
-Note: LookupFiles for this project contains video and screeshot of logcat depicting above mentioned features.
+`Note: LookupFiles for this project contains video and screeshot of logcat depicting above mentioned features.`
 ___
 
 # CustomList
@@ -36,7 +36,7 @@ Introduces the following topics
 3. Progress bar that we start in asynctask and keep updating it with progress from doInBackground
 
 
-Note: LookupFiles for this project contains video and screeshot of logcat depicting above mentioned features.
+`Note: LookupFiles for this project contains video and screeshot of logcat depicting above mentioned features.`
 ___
 
 # Notes
@@ -46,7 +46,7 @@ Introduces the following topics
 3. Show custom dialog that accepts user input (EditText)
 4. Listeners when items from the list are clicked
 
-Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
+`Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 
 ___
 
@@ -57,7 +57,7 @@ Introduces the following topics
 2. Create HttpUrConnection to connect to webservice to fetch details of a movie such as title year of release, language, genre, ImDb rating
 3. Parse output which is in json format to extract desired movie attributes.
 
-Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
+`Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 
 ___
 
@@ -66,28 +66,36 @@ Introduces the following topics
 1. How to create an Magnifier widget for an ImageView and TextView
 2. Show the magnifier widget whenever the corresponding view is touched.
 
-Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
+`Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 
 ___
 
 # NotificationsSample
 Introduces the notifications feature of Android. Project demostrates below listed types of notifcations.
-	1. Basic notification
-	2. Notification with multiline line content
-	3. Notification with large icon
-	4. Notification to open an activity
-	5. Notification with an action button
-	6. Notification with an inline input
-	7. Notification with progress bar
-	8. Expandable notification with big image
-	9. Update a notification
-	10. Message style notifications
-	11. Notification to cancel after 5 seconds
-	12. Create a heads up notification
-	13. Cancel all notifications
-	14. Create custom notification layout
-	15. Open Notification Channel Settings
+1. Basic notification
+2. Notification with multiline line content
+3. Notification with large icon
+4. Notification to open an activity
+5. Notification with an action button
+6. Notification with an inline input
+7. Notification with progress bar
+8. Expandable notification with big image
+9. Update a notification
+10. Message style notifications
+11. Notification to cancel after 5 seconds
+12. Create a heads up notification
+13. Cancel all notifications
+14. Create custom notification layout
+15. Open Notification Channel Settings
 
-Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.
+`Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 
 ___
+
+#AppBarSample With Search Action
+Introduces the appbar/toolbar/actionbar with search action. This app has two activities main acitivty has a list of few quotes, and secondary acitivity shows the list of quotes that were searched from the main activity with a search string. Components used
+
+1. ToolBar in layout xml, menu items in the menu.xml and providing menu click listeners, and searchable resource to indicate that we want to peform search from appbar menu.
+2. Assigning a search action to one of the menu items by providing a actionViewClass as SearchView widget. And a creating an activity to listen for android.intent.action.SEARCH action.
+
+`Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     //Creating a member variable for the listview
     ListView mListView;
-    
+
     //Channel Id used in Android O and above
     public static final String CHANNEL_ID = "General";
 
@@ -262,13 +262,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 //create a headsup notification
                 createNotificationWithHighImportance();
                 return;
+            case 13:
+                //Cancel all notifications
+                mNotificationManagerCompat.cancelAll();
+                return;
+
             case 14:
                 //Create custom notification layout
                 createCustomNotificationLayout();
-                return;
-            case 15:
-                //Cancel all notifications
-                mNotificationManagerCompat.cancelAll();
                 return;
 
         }
