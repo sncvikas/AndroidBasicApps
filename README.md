@@ -89,10 +89,9 @@ Introduces the notifications feature of Android. Project demostrates below liste
 15. Open Notification Channel Settings
 
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
-
 ___
 
-#AppBarSample With Search Action
+# AppBarSample With Search Action
 Introduces the appbar/toolbar/actionbar with search action. This app has two activities main acitivty has a list of few quotes, and secondary acitivity shows the list of quotes that were searched from the main activity with a search string. Components used
 
 1. ToolBar in layout xml, menu items in the menu.xml and providing menu click listeners, and searchable resource to indicate that we want to peform search from appbar menu.
