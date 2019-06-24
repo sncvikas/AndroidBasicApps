@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DialogsSample</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="dialog_types">
+        <item>Show confirmation dialog</item>
+        <item>Show single choice items dialog</item>
+        <item>Show single choice items for default selection</item>
+        <item>Show multi-choice items dialog</item>
+        <item>Dialog with custom layout</item>
+        <item>Embed dialog in activity layout</item>
+    </string-array>
+
+    <!--  Array for gender types-->
+    <string-array name="gender_types">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- Array for reminder recurrence types -->
+    <string-array name="reminder_types">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <!-- Array for filtering food with ingredients-->
+    <string-array name="food_filter">
+        <item>Veg</item>
+        <item>Chicken</item>
+        <item>Mutton</item>
+        <item>Fish</item>
+        <item>Egg</item>
+    </string-array>
+</resources>
