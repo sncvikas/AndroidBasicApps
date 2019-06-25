@@ -110,3 +110,15 @@ DialogsSample project introduces the differnt types of popup dialogs that are su
 6. Embed dialog in activity layout, custom layout dialog shown in fullscreen
 
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
+
+____
+# [Menus Samples](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/MenusSample)
+MenusSample project introduces the different types of menus that are supported in Android. The app uses following menu types
+1. Options menu seen in the action bar and in overflow
+2. Context menu that appears on long clicking a list item
+3. Action Mode menu, that appears on top of the action bar with icons when an view is long clicked.
+4. Popup menu that appears on just clicking any view (here FloatingActionButton)
+
+<br>Listeners are implemented when every menu item from each of the above menu types is clicked.
+
+`Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
