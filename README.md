@@ -124,7 +124,7 @@ MenusSample project introduces the different types of menus that are supported i
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 
 ____
-# Services Sample [Service](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices) and [ServiceClient](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServicesClient)
+# Services Sample [Service](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices) and [Client](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServicesClient)
 These two projects work together to introduce Android Services. <br/>
 As part of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices) source, we have following features
 1. Creating a started service, starting it, stopping it from the same application. This runs on main thread. This can taken multiple requests at the same time. These must be explicitily stopped by calling stopSelf()/stopService()
