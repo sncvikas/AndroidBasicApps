@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_array">
+        <item>Bind to Service with Messenger</item>
+        <item>Unbind from Messenger Service</item>
+        <item>Bind to Service with AIDL</item>
+        <item>Unbind from Service with AIDL</item>
+    </string-array>
+</resources>

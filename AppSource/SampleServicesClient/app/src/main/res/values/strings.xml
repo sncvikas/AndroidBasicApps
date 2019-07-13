@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleServicesClient</string>
+    <string name="action_settings">Settings</string>
+</resources>

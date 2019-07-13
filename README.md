@@ -112,7 +112,7 @@ DialogsSample project introduces the differnt types of popup dialogs that are su
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 
 ____
-# [Menus Samples](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/MenusSample)
+# [Menus Sample](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/MenusSample)
 MenusSample project introduces the different types of menus that are supported in Android. The app uses following menu types
 1. Options menu seen in the action bar and in overflow
 2. Context menu that appears on long clicking a list item
@@ -122,3 +122,21 @@ MenusSample project introduces the different types of menus that are supported i
 <br>Listeners are implemented when every menu item from each of the above menu types is clicked.
 
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
+
+____
+# Services Sample [Service](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices) and [ServiceClient](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServicesClient)
+These two projects work together to introduce Android Services. <br/>
+As part of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices) source, we have following features
+1. Creating a started service, starting it, stopping it from the same application. This runs on main thread. This can taken multiple requests at the same time. These must be explicitily stopped by calling stopSelf()/stopService()
+2. Creating an intent service, starting it, stopping it from the same application. This runs on the background worker therad. Intent services can process only one intent at time, pending requests on queued in worker thread. You dont have stop them explicitly.
+3. Creating a Bound service by extending the Binder class, binding to it, calling it's public methods, unbiding from it. Clients that are in the same process as the service can bind to such services.
+4. Creating a foreground service in Android version O and after. These services are started with startForegroundService(), these services must show a notification to the user indicating the service is running. After a call to onStartCommand()/onHandleIntent(), they must call startForeground() by passing the notification that's started for the service. Once service is stopped, its corresponding notification is also killed. To create foreground service, we must have `android.permission.FOREGROUND_SERVICE`  permission in manifest.
+5. Creating a bound service using a Messenger, binding to it from another application using expliciit intents. Mutliple clients can bind to such services, all requests are put in a message queue, processing the requests one by one. `android:exported` is set to `true` in manifest for these services to let outsiders bind.
+6. Creating a bound service using AIDL interface by creating `.aidl` file, extending a `.Stub` interface that returns the binder object. Clients must also have the identical `.aidl` file in their source to bind to such services. `android:exported` is set to `true` in manifest for these services to let outsiders bind  AIDL services differ from Messanger type bound services by allowing multiple clients to bind to it at the same time. Concurrency should be handled at the service itself.
+
+As part of [SampleServicesClient](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServicesClient) source, we have following features
+
+1. Bind, interact and unbind with the service exported via Messanger of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices)
+2. Bind, interact and unbind with the service exported via AIDL of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices)
+
+`Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features. Ensure to look into AndroidManifest.xml file to see what kind of services need to exported `

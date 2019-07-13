@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>Start service with a non sticky intent</item>
+        <item>Start service with sticky intent</item>
+        <item>Start service with redeliver intent</item>
+        <item>Stop above service</item>
+        <item>Start an IntentService</item>
+        <item>Queue an intent to IntentService</item>
+        <item>Stop above IntentService</item>
+        <item>Bind to Service</item>
+        <item>Unbind from a service</item>
+        <item>Start a foreground service</item>
+    </string-array>
+</resources>
