@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunincha.sampleservices">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".MyForegroundIntentService"
+            android:exported="false"></service>
+        <service
+            android:name=".MyAidlBoundService"
+            android:enabled="true"
+            android:exported="true" /> <!-- Notice that exported is set to false so that other apps can bind to this service -->
+        <service
+            android:name=".MyBindServiceMessenger"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyBoundService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".MyIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyStartedService" />
+    </application>
+
+</manifest>
