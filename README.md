@@ -140,3 +140,17 @@ As part of [SampleServicesClient](https://github.com/sncvikas/AndroidBasicApps/t
 2. Bind, interact and unbind with the service exported via AIDL of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices)
 
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features. Ensure to look into AndroidManifest.xml file to see what kind of services need to exported `
+
+____
+# [Broadcast Receivers](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/BroadcastsSample)
+This project demonstrates different types of Broadcast receivers in Android. Following topics are covered
+1. Register a broadcast receiver in AndroidManifest.xml
+2. Disable a manifest registered broadcast receiver
+3. Enable a manifest registered broadcast receiver
+4. Register a broadcast receiver using context dynamically
+5. Unregister a context registered broadcast receiver
+6. Send a broadcast to other applications using its packageName or componentName.
+7. Send and receive broadcast using LocalBroadcastManager
+8. Send an ordered broadcast. `android:priority` attribute in manifest which receiver is delivered the broadcast first.
+
+`Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`

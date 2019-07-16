@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>Receive system broadcast</item>
+        <item>Disable manifest receiver</item>
+        <item>Enable manifest receiver</item>
+        <item>Dynamic register a receiver</item>
+        <item>Unregister a receiver</item>
+        <item>Send a global broadcast</item>
+        <item>Send a local broadcast</item>
+        <item>Send an ordered broadcast</item>
+        <item>Abort an ordered broadcast</item>
+    </string-array>
+</resources>
