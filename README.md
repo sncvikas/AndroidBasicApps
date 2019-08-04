@@ -163,4 +163,5 @@ This project introduces different broadcast intents that help you monitor batter
 3. `Intent.ACTION_BATTERY_LOW`: This is sent when battery enters system defined low state. This can be registered in manifest.
 4. `Intent.ACTION_BATTERY_OKAY`: This is sent when battery comes out low state. This can be registered in manifest.
 
-`Note: Lookupfiles for this project contain screenshot, and main source file`
+`Note: Lookupfiles for this project contain screenshot, and main source file.`<br>
+`Use commands listed here` [ADB_Commands](https://github.com/sncvikas/ADB_Commands#simulate-unplug-battery-event) ` to simulate battery events`
