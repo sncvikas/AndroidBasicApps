@@ -154,3 +154,13 @@ This project demonstrates different types of Broadcast receivers in Android. Fol
 8. Send an ordered broadcast. `android:priority` attribute in manifest which receiver is delivered the broadcast first.
 
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
+
+___
+# [BatteryStatusSample](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/BatteryStatusSample)
+This project introduces different broadcast intents that help you monitor battery state changes, and intent extras that provide useful battery related information
+1. `Intent.ACTION_BATTERY_CHANGED` : This is sticky broadcast that does not need a receiver object when registered. BatteryManager returns the existing battery information as an Intent. These must always be context registered.
+2. `Intent.ACTION_POWER_DISCONNECTED`, `Intent.ACTION_POWER_CONNECTED`: These are sent when device is connected for charging, these intents can be registered in manifest.
+3. `Intent.ACTION_BATTERY_LOW`: This is sent when battery enters system defined low state. This can be registered in manifest.
+4. `Intent.ACTION_BATTERY_OKAY`: This is sent when battery comes out low state. This can be registered in manifest.
+
+`Note: Lookupfiles for this project contain screenshot, and main source file`
