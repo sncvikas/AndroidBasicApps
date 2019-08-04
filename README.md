@@ -1,22 +1,22 @@
 # AndroidBasicApps
 This repo contains several apps that introduce Android basic features
 
-Repo is organised into two main directories
-1. AppSource -- contains only complete source code of the application. Apps under this directory can be imported into Android Studio.
+Repo is organised as
+1. Root directory -- contains only complete source code of the application. Apps under this directory can be imported into Android Studio.
 2. LookupFiles -- contains only the important java/xml/screenshots files that define the core of the application. Users can quickly look into the source.
 
 ___
 
 # Projects : 
 ___
-# [Basic_Bluetooth](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/Basic_Bluetooth)  :
+# [Basic_Bluetooth](https://github.com/sncvikas/AndroidBasicApps/tree/master/Basic_Bluetooth)  :
 Contains code to perform basic Bluetooth operations in Android. The features include
 1. Enable/Disable Bluetooth
 2. Get list of paired devices
 3. Start Bluetooth device discovery to search for nearby Bluetooth devices	4. Register broadcast receivers for Bluetooth state changes events, device found intents.
 
 ___
-# [ActivityTransitions](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/ActivityTransitions):
+# [ActivityTransitions](https://github.com/sncvikas/AndroidBasicApps/tree/master/ActivityTransitions):
 Introduces following activity topics
 1. Activity life cycle, When new activity is started, current activity goes to one level down in the backstack,
 			while new activity becomes the top of the statck. Similarly when back is press, 
@@ -28,7 +28,7 @@ Introduces following activity topics
 `Note: LookupFiles for this project contains video and screeshot of logcat depicting above mentioned features.`
 ___
 
-# [CustomList](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/CustomList)
+# [CustomList](https://github.com/sncvikas/AndroidBasicApps/tree/master/CustomList)
 Introduces the following topics
 1. How to create a custom list adapter for your own UI where each row has ImageView, TextView and an ImageButton
 2. Asynctask which runs long operations in the background, not on the main thread, in our app it loads installed
@@ -39,7 +39,7 @@ Introduces the following topics
 `Note: LookupFiles for this project contains video and screeshot of logcat depicting above mentioned features.`
 ___
 
-# [Notes using SQLite](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/NotesAppUsingSqlite)
+# [Notes using SQLite](https://github.com/sncvikas/AndroidBasicApps/tree/master/NotesAppUsingSqlite)
 Introduces the following topics
 1. How to make use of Sqlite database to store data
 2. Perform database operations such as insert, delete, update, query
@@ -51,7 +51,7 @@ Introduces the following topics
 ___
 
 
-# [FetchMovie - Web API Usage](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/WebApiUsage)
+# [FetchMovie - Web API Usage](https://github.com/sncvikas/AndroidBasicApps/tree/master/WebApiUsage)
 Introduces the following topics
 1. How to create an AsyncTaskLoader to perform task in background thread
 2. Create HttpUrConnection to connect to webservice to fetch details of a movie such as title year of release, language, genre, ImDb rating
@@ -61,7 +61,7 @@ Introduces the following topics
 
 ___
 
-# [Magnifier Widget](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/MagnifierOnImageView)
+# [Magnifier Widget](https://github.com/sncvikas/AndroidBasicApps/tree/master/MagnifierOnImageView)
 Introduces the following topics
 1. How to create an Magnifier widget for an ImageView and TextView
 2. Show the magnifier widget whenever the corresponding view is touched.
@@ -70,7 +70,7 @@ Introduces the following topics
 
 ___
 
-# [NotificationsSample](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/NotificationsSample)
+# [NotificationsSample](https://github.com/sncvikas/AndroidBasicApps/tree/master/NotificationsSample)
 Introduces the notifications feature of Android. Project demostrates below listed types of notifcations.
 1. Basic notification
 2. Notification with multiline line content
@@ -91,7 +91,7 @@ Introduces the notifications feature of Android. Project demostrates below liste
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 ___
 
-# [AppBarSample With Search Action](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/AppBarSearchSample)
+# [AppBarSample With Search Action](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppBarSearchSample)
 Introduces the appbar/toolbar/actionbar with search action. This app has two activities main acitivty has a list of few quotes, and secondary acitivity shows the list of quotes that were searched from the main activity with a search string. Components used
 
 1. ToolBar in layout xml, menu items in the menu.xml and providing menu click listeners, and searchable resource to indicate that we want to peform search from appbar menu.
@@ -100,7 +100,7 @@ Introduces the appbar/toolbar/actionbar with search action. This app has two act
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 ___
 
-# [Dialogs Sample](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/DialogsSample)
+# [Dialogs Sample](https://github.com/sncvikas/AndroidBasicApps/tree/master/DialogsSample)
 DialogsSample project introduces the differnt types of popup dialogs that are supported in Android. The different types used in the app are
 1. Show confirmation dialog, for yes or no kind of dialogs
 2. Show single choice items dialog, to let user make a choice
@@ -112,7 +112,7 @@ DialogsSample project introduces the differnt types of popup dialogs that are su
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 
 ____
-# [Menus Sample](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/MenusSample)
+# [Menus Sample](https://github.com/sncvikas/AndroidBasicApps/tree/master/MenusSample)
 MenusSample project introduces the different types of menus that are supported in Android. The app uses following menu types
 1. Options menu seen in the action bar and in overflow
 2. Context menu that appears on long clicking a list item
@@ -124,9 +124,9 @@ MenusSample project introduces the different types of menus that are supported i
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 
 ____
-# Services Sample [Service](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices) and [Client](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServicesClient)
+# Services Sample [Service](https://github.com/sncvikas/AndroidBasicApps/tree/master/SampleServices) and [Client](https://github.com/sncvikas/AndroidBasicApps/tree/master/SampleServicesClient)
 These two projects work together to introduce Android Services. <br/>
-As part of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices) source, we have following features
+As part of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/SampleServices) source, we have following features
 1. Creating a started service, starting it, stopping it from the same application. This runs on main thread. This can taken multiple requests at the same time. These must be explicitily stopped by calling stopSelf()/stopService()
 2. Creating an intent service, starting it, stopping it from the same application. This runs on the background worker therad. Intent services can process only one intent at time, pending requests on queued in worker thread. You dont have stop them explicitly.
 3. Creating a Bound service by extending the Binder class, binding to it, calling it's public methods, unbiding from it. Clients that are in the same process as the service can bind to such services.
@@ -134,15 +134,15 @@ As part of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/ma
 5. Creating a bound service using a Messenger, binding to it from another application using expliciit intents. Mutliple clients can bind to such services, all requests are put in a message queue, processing the requests one by one. `android:exported` is set to `true` in manifest for these services to let outsiders bind.
 6. Creating a bound service using AIDL interface by creating `.aidl` file, creating an instance of `Binder.Stub`. Clients must also have the identical `.aidl` file in their source to bind to such services. `android:exported` is set to `true` in manifest for these services to let outsiders bind  AIDL services differ from Messanger type bound services by allowing multiple clients to bind to it at the same time. Concurrency should be handled at the service itself.
 
-As part of [SampleServicesClient](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServicesClient) source, we have following features
+As part of [SampleServicesClient](https://github.com/sncvikas/AndroidBasicApps/tree/master/SampleServicesClient) source, we have following features
 
-1. Bind, interact and unbind with the service exported via Messanger of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices)
-2. Bind, interact and unbind with the service exported via AIDL of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/SampleServices)
+1. Bind, interact and unbind with the service exported via Messanger of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/SampleServices)
+2. Bind, interact and unbind with the service exported via AIDL of [SampleServices](https://github.com/sncvikas/AndroidBasicApps/tree/master/SampleServices)
 
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features. Ensure to look into AndroidManifest.xml file to see what kind of services need to exported `
 
 ____
-# [Broadcast Receivers](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/BroadcastsSample)
+# [Broadcast Receivers](https://github.com/sncvikas/AndroidBasicApps/tree/master/BroadcastsSample)
 This project demonstrates different types of Broadcast receivers in Android. Following topics are covered
 1. Register a broadcast receiver in AndroidManifest.xml
 2. Disable a manifest registered broadcast receiver
@@ -156,7 +156,7 @@ This project demonstrates different types of Broadcast receivers in Android. Fol
 `Note: LookupFiles for this project contains screeshots and main source/resource files for the above mentioned features.`
 
 ___
-# [BatteryStatusSample](https://github.com/sncvikas/AndroidBasicApps/tree/master/AppSource/BatteryStatusSample)
+# [BatteryStatusSample](https://github.com/sncvikas/AndroidBasicApps/tree/master/BatteryStatusSample)
 This project introduces different broadcast intents that help you monitor battery state changes, and intent extras that provide useful battery related information
 1. `Intent.ACTION_BATTERY_CHANGED` : This is sticky broadcast that does not need a receiver object when registered. BatteryManager returns the existing battery information as an Intent. These must always be context registered.
 2. `Intent.ACTION_POWER_DISCONNECTED`, `Intent.ACTION_POWER_CONNECTED`: These are sent when device is connected for charging, these intents can be registered in manifest.
