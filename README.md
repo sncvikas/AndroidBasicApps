@@ -15,6 +15,7 @@ Contains code to perform basic Bluetooth operations in Android. The features inc
 2. Get list of paired devices
 3. Start Bluetooth device discovery to search for nearby Bluetooth devices	4. Register broadcast receivers for Bluetooth state changes events, device found intents.
 
+
 ___
 # [ActivityTransitions](https://github.com/sncvikas/AndroidBasicApps/tree/master/ActivityTransitions):
 Introduces following activity topics
@@ -165,3 +166,25 @@ This project introduces different broadcast intents that help you monitor batter
 
 `Note: Lookupfiles for this project contain screenshot, and main source file.`<br>
 `Use commands listed here` [ADB_Commands](https://github.com/sncvikas/ADB_Commands#simulate-unplug-battery-event) ` to simulate battery events`
+
+___
+# [PreferencesSample](https://github.com/sncvikas/AndroidBasicApps/tree/master/PreferencesSample)
+This projects introduces different preferences widgets that are supported in Android as listed below
+
+`1. EditTextPreference`  - To take text input such as user name
+
+`2. CheckBoxPreference` - To enable/disable a feature
+
+`3. SwitchPreference` - To enable/disable, such as to show notifications to the user or not
+
+`4. ListPreference` - Show a single choice list of values, such as how many notifications to show daily
+
+`5. MultiListPreference` - Show a multi choice list of values, such as select multiple interests to show news for in news app
+
+`6. Preference` - Plain text preference which user cannot change
+
+`7. PreferenceScreen` - Single preference screen with intent infomation, such as starting an activity after clicking the preference
+
+`8. PreferenceCategory` - Groups multiple related preferences into a single category.
+
+`Note: Lookupfiles for this project contain screenshot, and main source file.`<br>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PreferencesSample</string>
+    <string-array name="notification_frequency_array">
+        <item>Less than 5</item>
+        <item>Less than 10</item>
+        <item>Show them all</item>
+    </string-array>
+    <string-array name="interests_array">
+        <item>Technology</item>
+        <item>History</item>
+        <item>Politics</item>
+        <item>Business</item>
+        <item>Science</item>
+        <item>Entertainment</item>
+    </string-array>
+    <string-array name="notification_frequency_values">
+        <item>5</item>
+        <item>10</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="interests_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="empty_array"></string-array>
+</resources>

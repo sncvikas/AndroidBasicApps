@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:key="user_info_category"
+        android:title="User info">
+        <EditTextPreference
+            android:key="user_name"
+            android:title="User Name" />
+        <CheckBoxPreference
+            android:key="show_all"
+            android:title="Show All Interests" />
+        <MultiSelectListPreference
+            android:defaultValue="@array/empty_array"
+            android:entries="@array/interests_array"
+            android:entryValues="@array/interests_values"
+            android:key="user_interest"
+            android:title="Interests"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="notification_category"
+        android:title="Notifications">
+        <SwitchPreference
+            android:key="notifications"
+            android:title="Show notification" />
+        <ListPreference
+            android:defaultValue="5"
+            android:dependency="notifications"
+            android:entries="@array/notification_frequency_array"
+            android:entryValues="@array/notification_frequency_values"
+            android:key="notifications_count"
+            android:title="Daily notifications" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="about"
+        android:title="About">
+        <Preference
+            android:key="version"
+            android:summary="1.0"
+            android:title="Version"></Preference>
+        <PreferenceScreen
+            android:summary="Android"
+            android:title="Provide Feedback">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.android.com" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
