@@ -48,30 +48,19 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onCreatePreferences(Bundle bundle, String s) {
-        }
+
+            //Load preferences from the XML
+            setPreferencesFromResource(R.xml.preferences, s);
 
 
-        public MyPrefFragment() {
-        }
-
-        @Override
-        public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            //load the fragment from xml
-            addPreferencesFromResource(R.xml.preferences);
-        }
-
-        @Override
-        public void onStart() {
-            super.onStart();
-
+            //initialise preferences
             prefUserName = (EditTextPreference) findPreference("user_name");
             prefUserInterests = (MultiSelectListPreference) findPreference("user_interest");
             prefShowAllNews = (CheckBoxPreference) findPreference("show_all");
             prefShowNotifications = (SwitchPreference) findPreference("notifications");
             prefNotificationFreq = (ListPreference) findPreference("notifications_count");
 
-
+            //register for preference change listeners
             prefUserName.setOnPreferenceChangeListener(this);
             prefUserInterests.setOnPreferenceChangeListener(this);
             prefShowAllNews.setOnPreferenceChangeListener(this);
@@ -80,6 +69,9 @@ public class MainActivity extends AppCompatActivity {
 
 
             final Set<String> defaultInterests = new HashSet<>();
+
+            //Get current value of preferences
+            //and set summary for each of them
             prefs = PreferenceManager.getDefaultSharedPreferences(getActivity().getApplicationContext());
             String currentUserName = prefs.getString("user_name", null);
             boolean showAllInterests = prefs.getBoolean("show_all", false);
@@ -95,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             Log.i(TAG, "Show notifications? " + showNotifs);
 
             Log.i(TAG, "Notifications Count " + notificationsCount);
-            prefNotificationFreq.setSummary(notificationsCount.equals("0")?"All":notificationsCount);
+            prefNotificationFreq.setSummary(notificationsCount.equals("0") ? "All" : notificationsCount);
 
             Log.i(TAG, "Interests");
             StringBuilder interestValues = new StringBuilder();
@@ -105,7 +97,10 @@ public class MainActivity extends AppCompatActivity {
             }
             Log.i(TAG, "--------- Current preferences ---------");
             prefUserInterests.setSummary(interestValues);
+        }
 
+
+        public MyPrefFragment() {
         }
 
 
